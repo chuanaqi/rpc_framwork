@@ -13,6 +13,7 @@
         <module>rpc-customer</module>
         <module>rpc-provider</module>
         <module>rpc-interface</module>
+        <module>rpc-registry</module>
     </modules>
 
 </project>
