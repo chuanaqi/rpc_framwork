@@ -6,5 +6,5 @@
 
 ##rpc-interface公用接口
 
-##
+##rpc-registry注册服务
 
