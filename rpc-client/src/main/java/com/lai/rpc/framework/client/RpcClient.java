@@ -1,9 +1,9 @@
 package com.lai.rpc.framework.client;
 
-import com.lai.rpc.framework.common.RpcDecoder;
-import com.lai.rpc.framework.common.RpcEncoder;
-import com.lai.rpc.framework.common.RpcRequest;
-import com.lai.rpc.framework.common.RpcResponse;
+import com.lai.rpc.framework.registry.common.RpcDecoder;
+import com.lai.rpc.framework.registry.common.RpcEncoder;
+import com.lai.rpc.framework.registry.common.RpcRequest;
+import com.lai.rpc.framework.registry.common.RpcResponse;
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;
@@ -67,7 +67,7 @@ public class RpcClient extends SimpleChannelInboundHandler<RpcResponse> {
 
     protected void channelRead0(ChannelHandlerContext channelHandlerContext,
             RpcResponse rpcResponse) throws Exception {
-        this.response = response;
+        this.response = rpcResponse;
 
         synchronized (lock) {
             lock.notifyAll();

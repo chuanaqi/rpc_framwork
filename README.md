@@ -14,5 +14,12 @@
 
 ##rpc-client客户端
 
+##修改测试模块
+###rpc-customer消费者模块
+###rpc-interface公共接口模块
+###rpc-provider生产者模块
+####测试流程
+1.运行rpc-provider Application.java
+2.运行rpc-customer Consumer.java
 
 

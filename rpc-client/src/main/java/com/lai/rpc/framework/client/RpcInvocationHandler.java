@@ -1,8 +1,8 @@
 package com.lai.rpc.framework.client;
 
-import com.lai.rpc.framework.common.RpcRequest;
-import com.lai.rpc.framework.common.RpcResponse;
-import com.lai.rpc.framework.service.IDiscoveryService;
+import com.lai.rpc.framework.registry.common.RpcRequest;
+import com.lai.rpc.framework.registry.common.RpcResponse;
+import com.lai.rpc.framework.registry.service.IDiscoveryService;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

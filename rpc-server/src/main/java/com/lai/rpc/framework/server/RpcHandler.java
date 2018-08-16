@@ -1,7 +1,7 @@
 package com.lai.rpc.framework.server;
 
-import com.lai.rpc.framework.common.RpcRequest;
-import com.lai.rpc.framework.common.RpcResponse;
+import com.lai.rpc.framework.registry.common.RpcRequest;
+import com.lai.rpc.framework.registry.common.RpcResponse;
 import io.netty.channel.ChannelFutureListener;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
